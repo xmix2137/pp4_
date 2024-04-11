@@ -1,3 +1,4 @@
+package pl.ksikora.creditcard;
 import java.util.Collections;
 
 public class App {

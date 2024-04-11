@@ -1,4 +1,4 @@
-package pl.jzajas.ecommerce.hello;
+package pl.ksikora.ecommerce.hello;
 
 
 import org.springframework.web.bind.annotation.GetMapping;

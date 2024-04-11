@@ -1,9 +1,9 @@
-package pl.jzajas.ecommerce;
+package pl.ksikora.ecommerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import pl.jzajas.ecommerce.catalog.ProductCatalog;
+import pl.ksikora.ecommerce.catalog.ProductCatalog;
 
 
 @SpringBootApplication
