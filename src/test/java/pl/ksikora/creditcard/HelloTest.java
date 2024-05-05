@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 public class HelloTest {
     @Test
     void helloTest(){
-        var name = "Jakub";
+        var name = "Krzysztof";
         var message = String.format("Hello %s", name);
 
         System.out.println(message);
