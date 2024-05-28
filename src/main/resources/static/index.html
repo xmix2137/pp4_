@@ -1,12 +1,28 @@
-<htmL>
+<html>
     <head>
-        <title>My thing</title>
-        <Link rel="stylesheet" href="/css/main.css"/>
+        <title>My ecommerce</title>
+        <link href="/css/main.css" rel="stylesheet"/>
     </head>
     <body>
-    <h1>Hello there</h1>
-    <p>src/main/resources/static/index.html</p>
+        <h1>Welcome @ My ecommerce</h1>
+        <header>
+            <div class="offer">
+                Total: <span class="offer__total">0.0</span>
+                Items Count: <span class="offer__itemsCount">0</span>
+                <form>
+                    <input name="firstname" placeholder="John">
+                    <input name="lastname" placeholder="Smith">
+                    <input name="email" type="email" placeholder="john.smith@example.com">
+                    <button type="submit">Checkout</button>
+                </form>
+            </div>
+        </header>
 
-    <script type="text/javascript" src="/js/main.js"></script>
+
+        <ul id="productsList" class="productsList"></ul>
+
+
+
+        <script src="js/index.js" type="text/javascript"></script>
     </body>
-</htmL>
+</html>
